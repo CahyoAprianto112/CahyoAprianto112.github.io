@@ -1,0 +1,162 @@
+:root {
+    /* main variabel */
+    --maincolor: #34495E; /* #252734 */
+    --secondarycolor: #2C3E50; /* #333646 */
+    --acsentColor: #FF9100; /* #FF9100 */
+}
+
+body {
+    background-color: var(--maincolor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+/* navbar */
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark {
+    background-color: var(--secondarycolor) !important;
+    z-index: 10;
+    transition: .8s;
+}
+/* end-navbar */
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+/* hero */
+.color-ascent {
+    color: var(--acsentColor);
+}
+
+#hero {
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.social-icon svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+.social-icon-footer {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.social-icon-footer svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+/* end-Hero */
+
+/* about */
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondarycolor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+/* end-about */
+
+/* Skill */
+#skill {
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#skill img {
+    width: 12%;
+    margin: 10px;
+}
+#skill .card {
+    background-color: #414558; /* #414558 */
+    height: 340px;
+    color: #fff;
+}
+
+#skill .card:hover {
+    background-color: var(--acsentColor);
+}
+.skill-konten {
+    margin-top: 100px;
+}
+/* End-Skill */
+
+/* Sertifikat */
+#sertifikat {
+    margin-top: -170px;
+    padding-top: 270px;
+    padding-bottom: 80px;
+    background-color: var(--secondarycolor);
+}
+
+#sertifikat p, a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#sertifikat img {
+    width: 49%;
+    padding: 10px;
+}
+/* End-Sertifikat */
+
+/* Galery Portofolio */
+#portofolio .container {
+    padding: 80px 10px;
+}
+/* End-Galery Portofolio */
